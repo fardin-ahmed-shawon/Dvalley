@@ -27,20 +27,20 @@ const SectionFour = () => {
   }, []);
 
   return (
-    <div className="bg-gradient-to-r from-[#60C3AD] to-[#183f35]">
-      <div className="container mx-auto">
+    <div className="bg-[#80bf1e]">
+      <div className="container mx-auto px-5 lg:px-10">
         <div className="flex flex-wrap gap-x-10 py-12 md:py-16 lg:py-[120px]">
           {/* Mobile heading */}
           <div className="w-full order-1 lg:hidden">
-            <h1 className="text-2xl md:text-3xl text-center font-bold">
-              Chill in a <span className="text-[#60C3AD]">common area</span>
-              <br />
-              that's anything but common
-            </h1>
+<h1 className=" text-[#0c0f3b] text-2xl md:text-3xl text-center font-bold ">
+  Chill in a <span className="text-white">common area</span> that's anything but common
+</h1>
+
+
           </div>
 
           {/* Images */}
-          <div className="py-10 lg:py-0 w-full lg:w-[45%] flex gap-x-2 order-2 lg:order-1">
+          <div className="py-10 lg:py-0 w-full lg:w-[45%] flex gap-x-10 order-2 lg:order-1">
             <div className="w-1/2">
               <img src={common3} alt="bestlife1.png" />
             </div>
@@ -57,8 +57,8 @@ const SectionFour = () => {
               transform transition-all duration-1000 ease-out
               ${isVisible ? "opacity-100 scale-100" : "opacity-0 scale-90"}`}
           >
-            <h1 className="text-2xl md:text-3xl font-bold">
-              Chill in a <span className="text-[#60C3AD]">common area</span>
+            <h1 className="text-[#0c0f3b] text-2xl md:text-3xl font-bold">
+              Chill in a <span className="text-white">common area</span>
               <br />
               that's anything but common
             </h1>
@@ -69,6 +69,12 @@ const SectionFour = () => {
               centres and chillout corners as a bonus.
             </p>
           </div>
+                      <p className="order-3 lg:hidden text-start text-white text-lg mt-5">
+              Nope, we don't try to pass off a few plastic chairs and a TV as a
+              common area. We've replaced them with sofas, bean bags and
+              large-screen TVs. And we've also added gaming zones, fitness
+              centres and chillout corners as a bonus.
+            </p>
         </div>
       </div>
     </div>

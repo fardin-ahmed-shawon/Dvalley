@@ -5,18 +5,18 @@ const Services = ({ img, title, description, onClick }) => {
   return (
     // Card wrapper (clickable to trigger modal)
     <div
-      className="relative cursor-pointer rounded-xl overflow-hidden shadow-md group"
+      className="relative px-3 cursor-pointer  rounded-xl overflow-hidden  group "
       onClick={onClick}
     >
       {/* Background image */}
       <img
         src={img}
         alt={title}
-        className="w-full h-50 lg:h-[135px] object-cover transform group-hover:scale-105 transition-transform duration-500"
+        className="w-full rounded-xl h-30 md:h-40 lg:h-[135px] object-cover transform group-hover:scale-105 transition-transform duration-500"
       />
 
       {/* Gradient overlay (only appears on hover) */}
-      <div className="absolute inset-0 bg-gradient-to-r from-[#3fa892] to-[#183f35] opacity-0 group-hover:opacity-70 transition-opacity duration-500"></div>
+      <div className="absolute inset-0 bg-gradient-to-r from-[#80bf1e] to-[#183f35] opacity-0 group-hover:opacity-70 transition-opacity duration-500"></div>
 
       {/* Always visible title + arrow */}
       <div className="absolute bottom-4 left-6 flex items-center gap-3 text-white z-30">

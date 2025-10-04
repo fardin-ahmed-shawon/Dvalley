@@ -31,16 +31,16 @@ const SectionTwo = () => {
   }, []);
 
   return (
-    <div className={`bg-gradient-to-r from-[#183f35] to-[#60C3AD]`}>
-      <div className="container mx-auto">
+    <div className={`bg-[#80bf1e]`}>
+      <div className="container mx-auto px-10 lg:px-5">
         {/* Flex wrapper */}
         <div className="flex flex-wrap gap-x-10 py-12 md:py-16 lg:py-[120px]">
           
           {/* h1 for mobile (above images) */}
           <div className="w-full order-1 lg:hidden">
-            <h1 className='text-2xl md:text-3xl text-center font-bold'>
+            <h1 className='text-[#0c0f3b] text-2xl md:text-3xl text-center font-bold'>
               Step into a room that has <br />
-              from <span className='text-[#60C3AD]'>room for everything</span>
+              from <span className='text-white'>room for everything</span>
             </h1>
           </div>
 
@@ -67,9 +67,9 @@ const SectionTwo = () => {
   ref={textRef}
   className="hidden lg:flex w-[45%] py-5 flex-col justify-center items-start order-2 fade-in-element"
 >
-  <h1 className="text-2xl md:text-3xl font-bold">
-    Chill in a <span className="text-[#60C3AD]">common area</span><br />
-    that's anything but common
+  <h1 className="text-[#0c0f3b] text-2xl md:text-3xl font-bold">
+      Step into a room that has  <span className="text-white"> room for everything</span><br />
+  
   </h1>
   <p className="text-start text-white text-lg mt-5">
     Nope, we don't try to pass off a few plastic chairs and a TV as a

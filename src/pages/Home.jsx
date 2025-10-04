@@ -7,19 +7,25 @@ import SectionThree from "../components/SectionThree";
 import SectionFive from "../components/SectionFive";
 import SectionFour from "../components/SectionFour";
 import SectionSix from "../components/SectionSix";
+import SectionSeven from "../components/SectionSeven";
+import SectionEight from "../components/SectionEight";
 
 
 const Home = () => {
   return (
     <>
-      <Navbar />
-      <Hero />
+
+<div className="overflow-x-hidden">
+        <Hero />
       <SectionOne/>
 <SectionTwo/>
 <SectionThree/>
 <SectionFour/>
 <SectionFive/>
 <SectionSix/>
+<SectionSeven/>
+<SectionEight/>
+</div>
 
     </>
   );
